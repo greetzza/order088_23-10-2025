@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Playfair Display', serif;
-            background-color: #0E2A47;
+            background-color: #FFFFFF;
             margin: 0;
             padding: 0;
             display: flex;
@@ -54,7 +54,7 @@
         .logo {
             width: 220px;
             height: 220px;
-            background-color: #F8E3B0;
+            background-color: #D0C4EC;
             border-radius: 50%;
             margin: 0 auto;
             display: flex;
@@ -70,8 +70,8 @@
         }
 
         .btn-open {
-            background-color: #C72D2D;
-            color: #F8E3B0;
+            background-color: #FFFFFF;
+            color: #D0C4EC;
             border: none;
             padding: 12px 25px;
             font-size: 16px;
@@ -93,7 +93,7 @@
         }
 
         .card {
-            background-color: #F8E3B0;
+            background-color: #D0C4EC;
             width: 90%;
             max-width: 420px;
             height: 90vh;
@@ -108,7 +108,7 @@
             opacity: 0;
             transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
             z-index: 10;
-            border: 2px solid #C72D2D;
+            border: 2px solid #FFFFFF;
             overflow-y: auto;
             -webkit-overflow-scrolling: touch;
             display: flex;
@@ -158,7 +158,7 @@
         }
 
         .card-title {
-            color: #C72D2D;
+            color: #FFFFFF;
             font-size: 24px;
             margin-bottom: 15px;
             animation: slideDown 0.8s ease;
@@ -168,8 +168,8 @@
         }
 
         .genre-badge {
-            background-color: #C72D2D;
-            color: #F8E3B0;
+            background-color: #FFFFFF;
+            color: #D0C4EC;
             padding: 8px 15px;
             border-radius: 20px;
             font-size: 13px;
@@ -212,8 +212,8 @@
             left: 50%;
             transform: translateX(-50%);
             padding: 10px 20px;
-            background-color: #C72D2D;
-            color: #F8E3B0;
+            background-color: #FFFFFF;
+            color: #D0C4EC;
             border: none;
             border-radius: 20px;
             z-index: 100;
@@ -254,12 +254,12 @@
         }
 
         .card::-webkit-scrollbar-track {
-            background: #F8E3B0;
+            background: #D0C4EC;
             border-radius: 10px;
         }
 
         .card::-webkit-scrollbar-thumb {
-            background-color: #C72D2D;
+            background-color: #FFFFFF;
             border-radius: 10px;
         }
 
@@ -353,7 +353,7 @@
             createConfetti();
             
             // Change background
-            document.body.style.backgroundColor = '#F8E3B0';
+            document.body.style.backgroundColor = '#D0C4EC';
             
             // Try to play audio
             playAudio();
@@ -384,7 +384,7 @@
         
         // Confetti animation function
         function createConfetti() {
-            const colors = ['#FFD966', '#C72D2D', '#0E2A47', '#FFFFFF'];
+            const colors = ['#FFD966', '#FFFFFF', '#0E2A47', '#FFFFFF'];
             const container = document.querySelector('.container');
             
             for (let i = 0; i < 100; i++) {
